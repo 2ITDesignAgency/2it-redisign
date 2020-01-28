@@ -280,8 +280,12 @@ padding: 2.5em 0;
      
 }
 
+.social {
+    color: #fff;
+}
 .social img {
     width: 25px;
+    
 }
 
 .main .social {
