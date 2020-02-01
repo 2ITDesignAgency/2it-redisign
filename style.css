@@ -51,12 +51,47 @@ padding: 2.5em 0;
     
  }
 /*------------------------ 2 Home ------------------------*/
+.hero-title {
+    z-index: 1000;
+    /* bottom: 70px;
+    left: 70px; */
+}
+
+.services hr{
+    color: white;
+    border-top: 3px solid white !important;
+    width: 5em;
+    
+}
+.hero-title h1 {
+    color: #fff;
+    font-size: 4.4em;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-shadow: #212121 3px 5px 2px;
+}
+.hero-title h3 {
+    color: #fff;
+    font-size: 2.4em;
+    width: 30%;
+    text-shadow: #212121 3px 5px 2px;
+}
 
 .herosection{
     padding-top: 17%;
     padding-bottom: 17%;
     padding-left:5%; 
     background: url(images/ban.jpg) no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    position: relative;
+ }
+ .herosection-website{
+    padding-top: 13%;
+    padding-bottom: 19%;
+    padding-left:5%; 
+    background: url(images/web-design-hero.jpg) no-repeat;
     background-size: cover;
     display: table;
     width: 100%;
@@ -528,7 +563,7 @@ li {
     background-color: #343a40;
     color: #fff;
     text-align: center;
-    padding: 30px 0 120px;
+    padding: 30px 0 40px;
   }
   .gallery-header  h1 {
     text-align: center;
@@ -555,6 +590,7 @@ li {
     position: relative;
     overflow: hidden;
   }
+  
   .gallery ul {
     padding-top: 50px;
     position: relative;
@@ -564,6 +600,11 @@ li {
     width: 23.24561%;
     position: relative;
   }
+  /* .gallery-2 ul li {
+    margin-bottom: 20px;
+    width: 23%;
+    position: relative;
+  } */
   .gallery ul li a {
     display: block;
     position: relative;
@@ -616,7 +657,7 @@ li {
     left: 0;
     padding-top: 100px;
     background: #ffffff;
-    background-color: #fafafa;
+    background-color: #ffffff;
     z-index: 103;
     visibility: hidden;
     -webkit-transform: translateY(-100%);
@@ -731,3 +772,30 @@ li {
     }
 /* gallery link css end */
 
+/*------------------*/
+/*  SKEW CLOCKWISE  */
+/*------------------*/
+.skew-cc{
+    width:100%;
+    height:100px;
+    position:absolute;
+    left:0px;
+    background: linear-gradient(to right bottom, #343a40 49%, #fff 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+  }
+  
+  
+  /*-------------------------*/
+  /* SKEW COUNTER CLOCKWISE  */
+  /*-------------------------*/
+  .skew-c{
+    width:100%;
+    height:100px;
+    position:absolute;
+    left:0px;
+    background: linear-gradient(to left bottom, #fff 49%, #343a40 50%);
+  }
+
+  .website{
+      margin-top: 2em;
+      background-color: white !important;
+  }
