@@ -98,6 +98,17 @@ padding: 2.5em 0;
     position: relative;
  }
 
+ .herosection-ecommerce{
+    padding-top: 13%;
+    padding-bottom: 19%;
+    padding-left:5%; 
+    background: url(images/ecommerce-hero.jpg) no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    position: relative;
+ }
+
 .main:after {
     content: '';
     width: 100%;
@@ -396,6 +407,42 @@ header {
 
 /* footer css start------------------------------------------------------------------------------------------------------------------->*/
 @media (max-width: 960px) and (min-width: 200px){
+.logo img{
+    width:80%;
+}    
+.logo a {
+    color: orange;
+    margin-left: 0px;
+    font-size: 30px;
+}
+.hero-title h1 {
+    padding-top: 2em;
+    color: #fff;
+    font-size: 2.4em;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-shadow: #212121 3px 5px 2px;
+}    
+.hero-title h3 {
+    color: #fff;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1em;
+    width: 80%;
+    text-shadow: #212121 3px 5px 2px;
+}
+.gallery-header h1 span {
+    text-transform: uppercase;
+    letter-spacing: 3px !important;
+    font-size: 21px !important;
+    line-height: 1;
+}
+.gallery {
+    padding: 30px 0 120px;
+    position: relative;
+    overflow: hidden;
+}
+
 .list-unstyled li {
     width: 100% !important;
 }
@@ -728,6 +775,22 @@ li {
   
   /* gallery for mobile start */
   @media (max-width: 960px) and (min-width: 200px){
+    .mb-5, .my-5 {
+        margin-bottom: 1.5rem!important;
+    }
+    .gallery {
+        padding: 70px 0 120px;
+        position: relative;
+        overflow: hidden;
+    }
+    .gallery ul {
+        padding-top: 45px;
+        position: relative;
+    }
+    .port {
+
+        padding-top: 0px;
+    }
     .gallery ul li {
         margin-bottom: 15px;
         width: 45%;
@@ -746,8 +809,8 @@ li {
         overflow: auto;
       }
       .port h1 {
-        font-size: 35px;
-        line-height: 2.3;
+        font-size: 22px;
+        line-height: 1.2;
         padding: 0;
       }
       .reverse-row{
